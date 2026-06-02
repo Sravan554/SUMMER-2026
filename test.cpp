@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int main() {
+int main(){
     vector<int> vec;
     vec.push_back(10);
     vec.push_back(11);
