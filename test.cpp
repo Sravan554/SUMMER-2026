@@ -1,7 +1,12 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
-    cout << "Mac compiler is active. Time to grind!" << endl;
-    return 0;
+    vector<int> vec;
+    vec.push_back(10);
+    vec.push_back(11);
+    vec.push_back(12);
+    cout << vec.size() << endl ;
+    cout << vec.capacity();
 }
