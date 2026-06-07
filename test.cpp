@@ -1,12 +1,15 @@
 #include <iostream>
-#include <vector>
 using namespace std;
-
+int facto(int k){
+    if(k == 0){
+        return 1;
+    }
+    return k * facto(k-1);
+}
 int main(){
-    vector<int> vec;
-    vec.push_back(10);
-    vec.push_back(11);
-    vec.push_back(12);
-    cout << vec.size() << endl ;
-    cout << vec.capacity();
+    int n;
+    cout<<"Enter n : ";
+    cin >> n;
+    cout << facto(n) << endl;
+    return 0;
 }
