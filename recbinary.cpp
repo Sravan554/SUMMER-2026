@@ -16,5 +16,5 @@ int main(){
   vector<int> var = {1, 4 ,5 ,7 ,8 ,9};
   int tar = 8;
 
-  cout<< bin(var,tar,0,var.size()-1);
+  cout<< bin(var,tar,0,var.size()-1) << endl;
 }
