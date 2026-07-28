@@ -59,6 +59,12 @@ class Graph{
     }
   }
 
+  void dfsh(){
+    int u = 0;
+    vector<bool> vis(5,false);
+    dfs(u,vis);
+  }
+
 };
 
 int main(){
@@ -72,9 +78,7 @@ int main(){
 
   g.bfs();
 
-  vector<bool> vis(5,false);
-
-  g.dfs(0, vis);
+  g.dfsh();
   cout<< endl;
   return 0;
 }
